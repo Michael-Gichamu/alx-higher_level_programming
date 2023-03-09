@@ -1,6 +1,6 @@
-##0x02. Python - import & modules
-THis project involved learning about import and modules used in python.
-##Learning Objectives
+## 0x02. Python - import & modules
+This project involved learning about import and modules used in python.
+# Learning Objectives
 Why Python programming is awesome
 How to import functions from another file
 How to use imported functions
