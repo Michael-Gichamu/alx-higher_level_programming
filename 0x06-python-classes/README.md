@@ -26,10 +26,10 @@ OOP is a programming paradigm that revolves around the concepts of objects, whic
 * How does Python find the attributes of an object or class
 * How to use the getattr function
 
-# Usage 
-To use this project, clone the repository to your local machine and run the python files. Each Python script that defines a class has a respective entry point(...main.py) that you can use to test thw working of the Python scripts.
+## Usage 
+To use this project, clone the repository to your local machine and run the python files. Each Python script that defines a class has a respective entry point(...main.py) that you can use to test the working of the Python scripts.
 
-# Authors
+## Authors
 
 * [Michael Gichamu](https://github.com/Michael-Gichamu)
 
