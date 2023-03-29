@@ -27,7 +27,7 @@ OOP is a programming paradigm that revolves around the concepts of objects, whic
 * How to use the getattr function
 
 ## Usage 
-To use this project, clone the repository to your local machine and run the python files. Each Python script that defines a class has a respective entry point(...main.py) that you can use to test the working of the Python scripts.
+To use this project, clone the repository to your local machine and run the python files with various tests.
 
 ## Authors
 
