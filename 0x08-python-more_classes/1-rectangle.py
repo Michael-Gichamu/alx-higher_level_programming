@@ -5,8 +5,10 @@
 
 
 class Rectangle:
+    """Represents a rectangle"""
     def __init__(self, width=0, height=0):
         """Initialize a new Rectangle Oonject with the given width and height
+
         Args:
             width (int): The width of the rectangle. Defaults to 0.
             height (int): The height of the rectangle. Default to 0.
