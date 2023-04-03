@@ -7,7 +7,7 @@
 class Rectangle:
     """Represents a rectangle"""
     def __init__(self, width=0, height=0):
-        """Initialize a new Rectangle Oonject with the given width and height
+        """Initialize a new Rectangle Object with the given width and height
 
         Args:
             width (int): The width of the rectangle. Defaults to 0.
@@ -28,8 +28,7 @@ class Rectangle:
             raise TypeError("width must be an integer")
         if value < 0:
             raise ValueError("width must be >= 0")
-        else:
-            self.__width == value
+        self.__width = value
 
     @property
     def height(self):
@@ -43,5 +42,4 @@ class Rectangle:
             raise TypeError("height must be an integer")
         if value < 0:
             raise ValueError("height must be >= 0")
-        else:
-            self.__height = value
+        self.__height = value
