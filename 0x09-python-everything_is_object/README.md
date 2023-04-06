@@ -48,3 +48,31 @@ The first part is only answers to “What would be the result of…” for quest
 * What are the built-in immutable types
 * How does Python pass variables to functions
 
+## List of files and description
+|       |       Files          |       Description  |
+|:-----:|:--------------------:|:-------------------|
+| 1.    | [100-magic_string.py](https://github.com/Michael-Gichamu/alx-higher_level_programming/blob/master/0x09-python-everything_is_object/100-magic_string.py) | Function returns a string “BestSchool” n times the number of the iteration (see code):
+```
+guillaume@ubuntu:~/0x09$ cat 100-main.py
+#!/usr/bin/python3
+magic_string = __import__('100-magic_string').magic_string
+
+for i in range(10):
+    print(magic_string())
+
+guillaume@ubuntu:~/0x09$ ./100-main.py | cat -e
+BestSchool$
+BestSchool, BestSchool$
+BestSchool, BestSchool, BestSchool$
+BestSchool, BestSchool, BestSchool, BestSchool$
+BestSchool, BestSchool, BestSchool, BestSchool, BestSchool$
+BestSchool, BestSchool, BestSchool, BestSchool, BestSchool, BestSchool$
+BestSchool, BestSchool, BestSchool, BestSchool, BestSchool, BestSchool, BestSchool$
+BestSchool, BestSchool, BestSchool, BestSchool, BestSchool, BestSchool, BestSchool, BestSchool$
+BestSchool, BestSchool, BestSchool, BestSchool, BestSchool, BestSchool, BestSchool, BestSchool, BestSchool$
+BestSchool, BestSchool, BestSchool, BestSchool, BestSchool, BestSchool, BestSchool, BestSchool, BestSchool, BestSchool$
+guillaume@ubuntu:~/0x09$ wc -l 100-magic_string.py 
+4 100-magic_string.py
+guillaume@ubuntu:~/0x09$ 
+```
+
