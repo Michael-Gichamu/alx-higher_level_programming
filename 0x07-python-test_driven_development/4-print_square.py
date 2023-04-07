@@ -11,7 +11,7 @@ def print_square(size):
 
     Args:
         size (int): length of the square.
-    
+
     Raise:
         TypeError: size is not integer.
         ValueError: size is less than zero.
