@@ -42,5 +42,4 @@ class Student:
         """
 
         for key, value in json.items():
-            self.key = key
-            self.__value = value
+            setattr(self, key, value)
