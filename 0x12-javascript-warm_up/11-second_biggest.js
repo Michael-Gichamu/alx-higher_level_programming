@@ -10,8 +10,8 @@ if (typeof args[2] === 'undefined' || args.length === 3) {
       if (temp > args[i + 1]) {
         args[i] = args[i + 1];
         args[i + 1] = temp;
+      }
     }
-  }
   }
   console.log(args[(args.length - 2)]);
 }
