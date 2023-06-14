@@ -3,7 +3,7 @@
 <div class="image-container" style="position: relative;">
   <img style="display: block; user-select: none; margin: auto; cursor: zoom-in; background-color: rgb(230, 230, 230); --darkreader-inline-bgcolor: #26292b;
 position: relative; z-index: 1" src="https://miro.medium.com/v2/resize:fit:1400/1*L2_3HJTZhbZQLXIwr0MVaQ.gif" data-darkreader-inline-bgcolor="" width="679" height="336">
-  <iframe src="https://giphy.com/embed/SvFocn0wNMx0iv2rYz" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen style="position: absolute; bottom: 0; left: 0; z-index: 2;></iframe>
+  <img src="https://giphy.com/embed/SvFocn0wNMx0iv2rYz" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen style="position: absolute; bottom: 0; left: 0; z-index: 2;></img>
 </div>
 
 ## Introduction
