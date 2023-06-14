@@ -1,6 +1,6 @@
 # alx-higher_level_programming
 
-![python-powered](https://user-images.githubusercontent.com/35099243/132401902-fe845862-b655-4564-aa00-f2c9a2a5aeaa.gif)
+<div style="width:100%;height:0;padding-bottom:75%;position:relative;"><iframe src="https://giphy.com/embed/2IudUHdI075HL02Pkk" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/pudgypenguins-data-code-coding-2IudUHdI075HL02Pkk">via GIPHY</a></p>
 
 ## Introduction
 
