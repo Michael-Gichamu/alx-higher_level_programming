@@ -1,6 +1,6 @@
 # alx-higher_level_programming
 
-<iframe src="https://giphy.com/embed/2IudUHdI075HL02Pkk" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/pudgypenguins-data-code-coding-2IudUHdI075HL02Pkk">via GIPHY</a></p>
+<img style="display: block; user-select: none; margin: auto; cursor: zoom-in; background-color: rgb(230, 230, 230); --darkreader-inline-bgcolor: #26292b;" src="https://miro.medium.com/v2/resize:fit:1400/1*L2_3HJTZhbZQLXIwr0MVaQ.gif" data-darkreader-inline-bgcolor="" width="679" height="336">
 
 ## Introduction
 
