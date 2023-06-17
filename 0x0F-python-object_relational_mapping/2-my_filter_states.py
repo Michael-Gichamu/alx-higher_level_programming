@@ -3,6 +3,10 @@
 Displays all values in states table of hbtn_0e_0_usa
 where name matches the argument.
 
+Usage: ./2-my_filter_states.py <mysql username> \
+                                <mysql password> \
+                                <database name> \
+                                <state name searched>
 """
 
 if __name__ == "__main__":
