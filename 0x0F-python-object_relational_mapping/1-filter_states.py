@@ -4,6 +4,7 @@ List all states from database hbtn_0e_0_usa, where
 name starts with N
 """
 
+
 import sys
 import MySQLdb
 
