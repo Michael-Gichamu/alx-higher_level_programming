@@ -18,22 +18,10 @@ if __name__ == "__main__":
     db = MySQLdb.connect(host="localhost", port=3306, user=username,
                          passwd=password, db=database)
 
-    cur = db.cursor()
-    query = "SELECT c.name from cities as c \
-                INNER JOIN states as s \
-                ON c.state_id = s.id \
-                WHERE s.name = '{:s}' \
-                ORDER BY c.id".format(state)
+    c = db.cursor()
 
-    cur.execute(query)
-    result = cur.fetchall()
-    count = 0
-    for row in result:
-        for value in row:
-            count = count + 1
-            if count == len(result):
-                print(f"{value}")
-            else:
-                print(f"{value}, ", end="")
-    cur.close()
-    db.close()
+    c.execute("SELECT * FROM `cities` as `c` \
+                INNER JOIN `states` as `s` \
+                   ON `c`.`state_id` = `s`.`id` \
+                ORDER BY `c`.`id`")
+    print(", ".join([ct[2] for ct in c.fetchall() if ct[4] == state]))
