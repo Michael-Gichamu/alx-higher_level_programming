@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""
+Fetches a url and displays the body of the response.
+"""
 import urllib.request
 
 if __name__ == "__main__":
